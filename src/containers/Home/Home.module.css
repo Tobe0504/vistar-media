@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+}
+
+.container > section:nth-child(2) {
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  z-index: 2;
+}

@@ -1,0 +1,102 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.41px;
+  letter-spacing: 0.37em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  padding: 16px 24px 18px 24px;
+  border-radius: 90px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 67.49px 84.37px 0px #a6a6a61a;
+}
+
+.primary {
+  background: var(--black);
+  border: none;
+  color: var(--orange);
+}
+
+.primary:active {
+  background-color: var(--activePrimaryBlue);
+  color: var(--white);
+}
+
+.secondary {
+  background: var(--white);
+  border: none;
+  color: var(--buttonTextBlue);
+}
+
+.secondary:hover {
+  color: var(--purple);
+  border: 2px solid var(--purple);
+}
+
+.secondary:active {
+  border: 1px solid var(--secondaryActive);
+  color: var(--secondaryActive);
+}
+
+.tertiary {
+  background-color: var(--skyBlue2);
+  color: var(--buttonTextBlue);
+  border: 0.5px solid var(--skyBlue3);
+}
+
+.tertiary:hover {
+  background: var(--tertiatyButtonHover);
+}
+
+.tertiary:active {
+  background: var(--tertiaryButtonActive);
+}
+
+.invalid {
+  border: 1px solid var(--red);
+  color: var(--red);
+  background: none;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--buttonIdonBg);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.button:disabled {
+  background-color: var(--grey15);
+}
+
+.button:disabled > span {
+  background-color: var(--grey15);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .button {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 16px;
+  }
+}

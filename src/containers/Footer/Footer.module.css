@@ -1,0 +1,104 @@
+.container {
+  background: var(--black);
+}
+
+.topSection {
+  display: flex;
+  gap: 89px;
+  padding: 44px 115px 88px 115px;
+}
+
+.topSection > div {
+  width: 331px;
+}
+
+.topSection > div > h4 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--orange);
+  margin-bottom: 21px;
+}
+
+.topSection > div > p,
+.topSection > div > a {
+  display: block;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--white);
+}
+
+.topSection > div:nth-child(3) {
+  margin-left: auto;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.topSection > div:nth-child(3) > button {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: transparent;
+  color: var(--orange);
+  border: none;
+  margin-bottom: 40px;
+}
+
+.topSection > div:nth-child(3) > div {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topSection > div:nth-child(3) > div > p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--orange);
+}
+
+.topSection > div:nth-child(3) > div > img {
+  cursor: pointer;
+}
+
+.bottomSection {
+  display: flex;
+  gap: 89px;
+  padding: 0px 115px 44px 115px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 31.45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.bottomSection > a:nth-child(2) {
+  margin-left: auto;
+}
+
+.bottomSection > p > span {
+  color: var(--orange);
+}

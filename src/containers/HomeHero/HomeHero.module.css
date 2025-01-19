@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 103px;
+  padding: 0px 110px 447px 110px;
+}
+
+.container > div > h4 {
+  font-family: Inter;
+  font-size: 69px;
+  font-weight: 400;
+  line-height: 96.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--white);
+  margin-bottom: 21px;
+}
+
+.container > div > h4 > span {
+  color: var(--orange);
+}
+
+.container > div > p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.57px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--white);
+}
+
+.container > img {
+  cursor: pointer;
+}

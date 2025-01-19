@@ -1,0 +1,14 @@
+.container {
+  min-height: 100svh;
+  position: relative;
+}
+
+.container > header {
+  position: sticky;
+  top: 0;
+  height: var(--headerHeight);
+}
+
+.container > section {
+  min-height: calc(100svh - var(--headerMargin) - var(--headerHeight));
+}

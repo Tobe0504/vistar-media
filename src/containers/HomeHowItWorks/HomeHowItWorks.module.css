@@ -1,0 +1,46 @@
+.container {
+  padding: 146px 118px;
+  text-align: center;
+}
+
+.container > h4 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  letter-spacing: 0.49em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--white);
+  margin-bottom: 120px;
+}
+
+.textSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textSection > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 110px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  gap: 57px;
+  align-self: center;
+}
+
+.textSection > div > h1 {
+  color: var(--orange);
+}
+
+.textSection > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  background-image: url("../../assets/images/contactBg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-inline: 115px;
+}
+
+.leftSection {
+  flex: 1;
+}
+
+.leftSection {
+  padding-block: 63px;
+}
+
+.leftSection > button {
+  background-color: transparent;
+  border: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 236px;
+}
+
+.leftSection > h4 {
+  font-family: Inter;
+  font-size: 69px;
+  font-weight: 500;
+  line-height: 96.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+
+.leftSection > p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  max-width: 450px;
+}
+
+.container > form {
+  background-color: var(--white);
+  padding: 55px 32px;
+  flex-basis: 547px;
+}
+
+.container > form > button {
+  float: right;
+  margin-top: 1rem;
+}

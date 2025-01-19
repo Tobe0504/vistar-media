@@ -1,0 +1,54 @@
+.container {
+  background-color: var(--grey3);
+  padding: 91px 108px;
+  color: var(--darkBlue);
+}
+
+.container > h4 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  letter-spacing: 0.49em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--black);
+  margin-bottom: 71px;
+}
+
+.blogsContainer {
+  display: flex;
+  overflow-x: auto;
+}
+
+.blogsContainer > a {
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+
+.blogsContainer > a:nth-child(odd) {
+  border-right: 0.5px solid var(--grey2);
+}
+
+.nav {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.nav > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
