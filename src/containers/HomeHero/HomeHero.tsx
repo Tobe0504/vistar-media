@@ -1,6 +1,6 @@
 import Image from "next/image";
 import classes from "./HomeHero.module.css";
-import herotextImage from "../../assets/images/herotextButton.svg";
+import herotextImage from "../../assets/images/heroTextButton.svg";
 
 const HomeHero = () => {
   return (
