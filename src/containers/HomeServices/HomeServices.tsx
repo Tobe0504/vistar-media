@@ -4,7 +4,7 @@ import classes from "./HomeServices.module.css";
 
 const HomeServices = () => {
   return (
-    <section className={classes.container}>
+    <section className={classes.container} id="services">
       <div className={classes.header}>
         <h3>SERVICES</h3>
         <p>Effortless Campaign Management</p>

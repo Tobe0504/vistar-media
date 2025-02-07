@@ -6,12 +6,12 @@ import classes from "./HomeBlogs.module.css";
 
 const HomeBlogs = () => {
   return (
-    <section className={classes.container}>
+    <section className={classes.container} id="blog">
       <h4>BLOG</h4>
 
       <div className={classes.blogsContainer}>
-        {homeBlogs.map((data) => {
-          return <BlogCard key={data?.title} data={data} />;
+        {homeBlogs.map((data, i) => {
+          return <BlogCard key={i} data={data} />;
         })}
       </div>
 

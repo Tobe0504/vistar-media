@@ -1,12 +1,15 @@
 .container {
-  min-height: 100svh;
+  height: 100svh;
   position: relative;
+  overflow: auto;
+  scroll-behavior: smooth;
 }
 
 .container > header {
   position: sticky;
   top: 0;
   height: var(--headerHeight);
+  z-index: 4;
 }
 
 .container > section {

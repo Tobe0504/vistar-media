@@ -4,7 +4,7 @@ import classes from "./HomePortfolio.module.css";
 
 const HomePortfolio = () => {
   return (
-    <section className={classes.container}>
+    <section className={classes.container} id="portfolio">
       <h4>PORTFOLIO AND CLIENTS</h4>
 
       <div className={classes.portfolioContainer}>

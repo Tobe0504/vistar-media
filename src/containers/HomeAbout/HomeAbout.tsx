@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HomeAbout = () => {
   return (
-    <section className={classes.container}>
+    <section className={classes.container} id="about">
       <div>
         <h4>ABOUT</h4>
         <p>Out-of-Home Advertising That Delivers Results</p>

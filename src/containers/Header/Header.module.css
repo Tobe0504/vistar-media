@@ -1,5 +1,7 @@
 .container {
-  margin: 82px 110px;
+  margin: 82px 0px;
+  background-color: var(--darkBlue);
+  padding: 0 110px;
 }
 
 .container,

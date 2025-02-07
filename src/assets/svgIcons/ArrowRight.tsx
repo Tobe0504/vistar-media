@@ -19,7 +19,7 @@ const ArrowRight = () => {
         stroke="#292D32"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Lnejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

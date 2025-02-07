@@ -44,6 +44,7 @@ const HomeImagesSection = () => {
                 className={`${classes.imagesSection} ${
                   data?.isActive ? classes.active : classes?.inActive
                 }`}
+                key={i}
                 onClick={() => activeToggler(i, imagesState, setImagesState)}
               >
                 <Image src={data?.image} key={i} alt="Product" />

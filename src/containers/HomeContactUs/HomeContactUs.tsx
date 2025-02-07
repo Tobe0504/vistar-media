@@ -5,7 +5,7 @@ import classes from "./HomeContactUs.module.css";
 
 const HomeContactUs = () => {
   return (
-    <section className={classes.container}>
+    <section className={classes.container} id="contact-us">
       <div className={classes.leftSection}>
         <button>
           <span>Get direction</span>
